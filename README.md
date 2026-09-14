@@ -1,5 +1,17 @@
-# Mini-IDS
-실행 # venv\Scripts\activate 가상환경 활성화 
-cd (파이썬 파일이 위치하는 디렉토리) 
-python mini_ids.py 
-python mini_ids.py -i "이더넷"  
+## 실행 방법
+
+가상환경을 활성화하고 파이썬 스크립트를 실행하는 방법은 다음과 같습니다.
+
+### 1. 가상환경 활성화 및 디렉토리 이동
+```bash
+# 가상환경 활성화
+venv\Scripts\activate
+
+# 파이썬 파일이 위치한 디렉토리로 이동
+cd (파이썬 파일이 위치하는 디렉토리)
+
+# 기본 실행
+python mini_ids.py
+
+# 특정 옵션(-i) 지정하여 실행 (예: 이더넷)
+python mini_ids.py -i "이더넷"
